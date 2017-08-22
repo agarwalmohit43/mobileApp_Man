@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:id="@+id/linearLayout"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+
+           <android.support.design.widget.TextInputLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_alignParentStart="true"
+               android:layout_below="@+id/textInputLayout"
+               android:layout_marginTop="5dp">
+
+               <AutoCompleteTextView
+                   android:id="@+id/productAutoCompleteSells"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:ems="10"
+                   android:hint="Product"
+                   android:inputType="text"
+                   android:theme="@style/Autocomplete"
+                   android:visibility="visible">
+
+                   <requestFocus />
+               </AutoCompleteTextView>
+
+           </android.support.design.widget.TextInputLayout>
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:id="@+id/linearLayout2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentStart="true"
+           android:layout_below="@+id/linearLayout"
+           android:layout_marginTop="20dp"
+           android:orientation="horizontal">
+
+
+           <EditText
+
+               android:id="@+id/qty_sells_editext"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:hint="Qty."
+               android:inputType="number"
+               android:padding="25dp" />
+
+           <EditText
+               android:id="@+id/rate_sells_editext"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:hint="Rate"
+               android:inputType="numberDecimal"
+               android:padding="25dp" />
+
+           <EditText
+               android:id="@+id/dis_sells_editext"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:hint="Discount"
+               android:inputType="numberDecimal"
+               android:padding="25dp" />
+
+           <EditText
+               android:id="@+id/tax_sells_editext"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:hint="Tax"
+               android:inputType="numberDecimal"
+               android:padding="25dp" />
+
+       </LinearLayout>
+
+
+       <android.support.design.widget.TextInputLayout
+           android:id="@+id/textInputLayout2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentStart="true"
+           android:layout_below="@+id/linearLayout2"
+           android:layout_marginTop="31dp">
+
+           <EditText
+               android:id="@+id/comment_Sell"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Comment"
+               android:inputType="textCapWords" />
+       </android.support.design.widget.TextInputLayout>
+
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentStart="true"
+           android:layout_below="@+id/textInputLayout2"
+           android:layout_gravity="center"
+           android:layout_marginTop="72dp">
+
+           <Button
+               android:id="@+id/addToCart_sellsButton"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentEnd="true"
+               android:layout_marginEnd="56dp"
+               android:background="@color/green"
+               android:text="Add To Cart" />
+
+
+           <Button
+               android:id="@+id/dissInventoryDialog"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignBaseline="@+id/addToCart_sellsButton"
+               android:layout_alignBottom="@+id/addToCart_sellsButton"
+               android:layout_marginEnd="61dp"
+               android:layout_toStartOf="@+id/addToCart_sellsButton"
+               android:background="@color/colorAccent"
+               android:text="Close" />
+
+       </RelativeLayout>
+
+   </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

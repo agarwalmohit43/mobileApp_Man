@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/dbcent91/Documents/Android/final/mobileapp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9e28dde6fb9f4eba342a4cc485153918a9f333fd">
+        <dex dex="/home/dbcent91/Documents/Android/final/mobileapp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_da5252b501a64b1200c923f3333b13bf9141e01c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/dbcent91/Documents/Android/final/mobileapp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/dbcent91/Documents/Android/final/mobileapp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7b3c21a755a85197ed33ec097915af85e9be0407/classes.dex" />
+    </item>
+
+</items>

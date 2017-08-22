@@ -1,0 +1,7 @@
+#Mon Aug 07 16:49:52 IST 2017
+base.0=/home/dbcent91/Documents/Android/final/mobileapp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_da5252b501a64b1200c923f3333b13bf9141e01c
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/dbcent91/Documents/Android/final/mobileapp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7b3c21a755a85197ed33ec097915af85e9be0407/classes.dex
+base.1=/home/dbcent91/Documents/Android/final/mobileapp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7b3c21a755a85197ed33ec097915af85e9be0407
+file.0=/home/dbcent91/Documents/Android/final/mobileapp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_da5252b501a64b1200c923f3333b13bf9141e01c/classes.dex
